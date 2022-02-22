@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4_tyres_Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+
+
+        <article>
+            <h3>DEVIS GRATUIT ET RENDEZ-VOUS IMMEDIAT</h3>
+            <h2>Recherchez ici votre prestation : freinage, vidange, distribution...</h2>
+            <div>
+                <p>Envoyez nous rapidement vos questions ou demandes depuis ce formulaire. Nous vous repondrons dans les
+                    plus brefs delais.</p>
+            </div>
+        </article>
+    </header>
+    <section>
+        <form method="POST" action="monProgramme.php" id="conteiner">
+            <div class="page">
+                <label for="name">Nom</label>
+                <input type="text" name="name" value="Votre Nom" size="20" placeholder="nom" maxlength="20"
+                    id="ContactName" required />
+            </div>
+            <div class="page">
+                <label for="email">E-mail</E-mail></label>
+                <input type="email" name="email" value="Votre adresse E-mail" size="20" placeholder="E-mail"
+                    maxlength="20" id="ContactMail" required />
+            </div>
+            <div class="page">
+                <label for="Numero">Numero</label>
+                <input type="text" name="Numero" value="Numero de telephone" size="20" placeholder="Numero" maxlength="20"
+                    id="ContactNumber" />
+            </div>
+            <div class="page">
+                <label for="message">VOTRE PRESTATION:</label>
+                <textarea placeholder="votre message" name="message" cols="50" rows="20" id="msg"></textarea>
+            </div class="page">
+            <div><button> Envoyer </button> <input type="reset" value="Annuler"></input></div>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="#">Mentions legales</a></li>
+            <li><a href="#">Politique de Confidentalite</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
